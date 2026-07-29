@@ -2,11 +2,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 # load dataset
-train = pd.read_csv("ir_train.csv")
+train = pd.read_csv("train_numbers.csv")
 
-train[["train_number"]].drop_duplicates().to_csv(
-    "train_numbers.csv", index=False
-)
 # creating list of train numbers
 train_numbers = sorted(train["train_number"].unique())
 # Load model and feature names
