@@ -15,6 +15,47 @@ st.set_page_config(
     page_icon="🚆",
     layout="centered"
 )
+st.sidebar.title("🚆 Indian Railway Delay Predictor")
+
+st.sidebar.markdown("""
+
+### 👨‍💻 Developed By
+
+- **Arbaz Quraishi**
+
+- **Mohammad Uruj Faizan**
+
+### 🎯 Objective
+
+Predict the expected delay of Indian Railway trains using a Machine Learning model.
+
+### 🛠️ Tech Stack
+
+- Python
+
+- Pandas
+
+- Scikit-learn
+
+- Streamlit
+
+- Joblib
+
+### 📌 Inputs
+
+- Train Number
+
+- Journey Date
+
+### 📤 Output
+
+Predicted Delay (HH:MM:SS)
+
+---
+
+Made with ❤️ using Streamlit
+
+""")
 
 st.title("🚆 Indian Railway Delay Predictor")
 st.write("Predict the expected train delay.")
